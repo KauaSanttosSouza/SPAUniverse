@@ -1,0 +1,70 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   z-index: 2;
+}
+
+:root {
+   font-size: 62.5%;
+}
+
+.home {
+   transform: scale(1.1);
+   font-weight: 700;
+   color: white;
+}
+
+body {
+   background-image: url(../assents/bg-home.png);
+   background-size: cover;
+   display: flex;
+   height: 100vh;
+}
+
+body main {
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   align-items: center;
+   font-family: 'Roboto', sans-serif;
+   margin-top: 17.2rem;
+}
+
+body main h1 {
+   font-size: 4.8rem;
+   line-height: 6rem;
+   color: white;
+   margin-bottom: 2.4rem;
+}
+
+body main a {
+   text-decoration: none;
+   font-size: 1.4rem;
+   line-height: 3.2rem;
+
+   font-family: 'Roboto', sans-serif;
+   font-weight: 700;
+   color: white;
+   background: transparent;
+
+   border: 2px solid #FFFFFF;
+   border-radius: 0.5rem;
+   padding: 1.2rem 3.2rem 1.2rem 3.2rem;
+   transition: all .5s;
+
+   
+}
+
+body main a:hover {
+   transform: scale(1.1);
+   font-family: 'Roboto', sans-serif;
+   font-weight: 700;
+   color: #02799D;
+   background: white;
+
+   border-radius: 0.5rem;
+   padding: 1.2rem 3.2rem 1.2rem 3.2rem;
+
+   cursor: pointer;
+}
